@@ -7,12 +7,26 @@ div {
     background-color: white;
     margin: 20px;
     padding: 20px;
+    border-radius: 10px;
+}
+
+div:first-child {
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 h1 {
-    color: #333;
+    color: wheat;
+    font-size: 36px;
 }
 
 h2 {
     color: #444;
+    font-size: 24px;
 }
