@@ -5,33 +5,91 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
         <!--Hero Section-->
-        <div>
-            <h1>Hi, I am Avinash</h1>
-            <p>Aspiring Full-Stack Developer</p>
-        </div>
+            <section class="hero">
+                <h1>Hi, I am Avinash</h1>
+                <p>Aspiring Full-Stack Developer</p>
+            </section>
+        </header>
+        <main>
         <!--About Section-->
-        <div>
-            <h2>About me</h2>
-            <p>
-                I am a first year BTech Student learning full-stack development <br>
-                through Meta's Full-Stack developer course.
-            </p>
-        </div>
-        <!--skill Section-->
-        <div>
-            <h2>Skills</h2>
-            <p>HTML, CSS, learning JavaScript</p>
-        </div>
-        <!--Project Section-->
-        <div>
-            <h2>Projects</h2>
-            <p>My Portfolio (HTML & CSS)</p>
-        </div>
-        <!--Contact Section-->
-        <div>
-            <h2>Let's Connect</h2>
-            <a href="https://www.linkedin.com/in/avinash-nv-33846133b/"><img src="linkedinlogo.png" width="50px"></a>
-        </div>
+            <section class="about">
+                <h2>About me</h2>
+                <p>
+                    I am a first-year BTech Student learning full-stack development 
+                    through Meta's Full-Stack developer course.
+                </p>
+                <p>
+                   I enjoy graphic design and am currently a design team member at E-Cell, VIT Bhopal.
+                </p>
+            </section>
+            <!--skill Section-->
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skill-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript(Learning)</span>
+                    <span>Graphic Design</span>
+                    <span>Team Collaboration</span>
+                </div>
+            </section>
+            <!--Project Section-->
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-container">
+                    <div class="project-card">
+                        <img src="portfolio.webp" alt="portfolio img">
+
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A clean and responsive personal portfolio website built to showcase my skills,
+                            projects, and contact information.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span class="tech-used">HTML</span>
+                            <span class="tech-used">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="inprogress.webp" alt="inprogress">
+
+                        <h3>Coming Soon</h3>
+                        <p>
+                            More real world problems will be added as I progress through full-stack developer
+                        </p>
+
+                        <div class="tech-stack">
+                            <span class="tech-used">In Progress</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="inprogress.webp" alt="inprogress">
+
+                        <h3>Coming Soon</h3>
+                        <p>
+                            More real world problems will be added as I progress through full-stack developer
+                        </p>
+
+                        <div class="tech-stack">
+                            <span class="tech-used">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!--Contact Section-->
+            <section class="contact">
+                <h2>Let's Connect</h2>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/avinash-nv-33846133b/"><img src="linkedin.png" width="50px"></a>
+                    <a href="mailto:avinashnv.contact@gmail.com"><img src="gmail-removebg-preview.png" width="50px"></a>
+                    <a href="https://github.com/avinashcseaiml-alt"><img src="github-removebg-preview.png" width="50px"></a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">@ 2025 Avinash. Built with HTML & CSS.</footer>
     </body>
 </html>
